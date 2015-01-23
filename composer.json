@@ -8,7 +8,7 @@
         "pyrocms",
         "laravel"
     ],
-    "homepage": "http://anomaly.is/",
+    "homepage": {{homepage}}",
     "license": "{{license}}",
     "authors": [
         {
