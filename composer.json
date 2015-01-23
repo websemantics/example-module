@@ -1,7 +1,7 @@
 {
-    "name": "anomaly/example-module",
+    "name": "{{module_name}}",
     "type": "streams-addon",
-    "description": "This is an example module for demonstration purposes only.",
+    "description": "{{description}}",
     "keywords": [
         "example",
         "streams",
@@ -9,24 +9,24 @@
         "laravel"
     ],
     "homepage": "http://anomaly.is/",
-    "license": "MIT",
+    "license": "{{license}}",
     "authors": [
         {
-            "name": "AnomalyLabs, Inc.",
-            "email": "hello@anomaly.is",
-            "homepage": "http://anomaly.is/",
+            "name": "{{author_name}}",
+            "email": "{{email}}",
+            "homepage": "{{homepage}}",
             "role": "Owner"
         }
     ],
     "support": {
-        "email": "support@anomaly.is"
+        "email": "{{email}}"
     },
     "config": {
         "bin-dir": "bin"
     },
     "autoload": {
         "psr-4": {
-            "Anomaly\\ExampleModule\\": "src/"
+            "{{namespace}}": "src/"
         }
     },
     "extra": {
