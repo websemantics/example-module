@@ -1,11 +1,11 @@
-<?php namespace Anomaly\ExampleModule\Ui\Form;
+<?php namespace {{namespace}}Ui\Form;
 
 use Anomaly\Streams\Platform\Ui\Form\FormBuilder;
 
-class ExampleFormBuilder extends FormBuilder
+class {{module_name}}FormBuilder extends FormBuilder
 {
 
-    protected $model = 'Anomaly\ExampleModule\Example\ExampleModel';
+    protected $model = 'Anomaly\{{module_name}}Module\{{module_name}}\{{module_name}}Model';
 
     protected $fields = [
         '*',

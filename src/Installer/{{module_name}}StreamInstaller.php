@@ -1,8 +1,8 @@
-<?php namespace Anomaly\ExampleModule\Installer;
+<?php namespace {{namespace}}Installer;
 
 use Anomaly\Streams\Platform\Stream\StreamInstaller;
 
-class ExampleStreamInstaller extends StreamInstaller
+class {{module_name}}StreamInstaller extends StreamInstaller
 {
 
     protected $stream = 'examples';

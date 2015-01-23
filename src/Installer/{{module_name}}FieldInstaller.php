@@ -1,8 +1,8 @@
-<?php namespace Anomaly\ExampleModule\Installer;
+<?php namespace {{namespace}}Installer;
 
 use Anomaly\Streams\Platform\Field\FieldInstaller;
 
-class ExampleFieldInstaller extends FieldInstaller
+class {{module_name}}FieldInstaller extends FieldInstaller
 {
 
     protected $fields = [

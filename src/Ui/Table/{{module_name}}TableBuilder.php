@@ -1,13 +1,13 @@
-<?php namespace Anomaly\ExampleModule\Ui\Table;
+<?php namespace {{namespace}}Ui\Table;
 
-use Anomaly\ExampleModule\Example\ExampleModel;
+use Anomaly\{{namespace}}Module\{{namespace}}\{{namespace}}Model;
 use Anomaly\Streams\Platform\Ui\Table\Table;
 use Anomaly\Streams\Platform\Ui\Table\TableBuilder;
 
-class ExampleTableBuilder extends TableBuilder
+class {{module_name}}TableBuilder extends TableBuilder
 {
 
-    protected $model = 'Anomaly\ExampleModule\Example\ExampleModel';
+    protected $model = 'Anomaly\{{module_name}}Module\{{module_name}}\{{module_name}}Model';
 
     protected $buttons = [
         'edit',
@@ -28,7 +28,7 @@ class ExampleTableBuilder extends TableBuilder
                 'simple_text',
                 [
                     'heading' => 'Is this awesome?',
-                    'value'   => function (ExampleModel $entry) {
+                    'value'   => function ({{module_name}}Model $entry) {
                         if ($entry->isAwesome()) {
                             return 'Sure is.';
                         }

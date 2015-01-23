@@ -1,8 +1,8 @@
-<?php namespace Anomaly\ExampleModule;
+<?php namespace {{namespace}};
 
 use Anomaly\Streams\Platform\Addon\Module\Module;
 
-class ExampleModule extends Module
+class {{module_name}}Module extends Module
 {
 
     /**
