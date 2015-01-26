@@ -1,7 +1,7 @@
 <?php namespace {{namespace}}Http\Controller;
 
-use {{namespace}}Ui\Form\{{module_name}}FormBuilder;
-use {{namespace}}Ui\Table\{{module_name}}TableBuilder;
+use {{namespace}}Ui\Form\\{{module_name}}FormBuilder;
+use {{namespace}}Ui\Table\\{{module_name}}TableBuilder;
 use {{namespace}}Platform\Http\Controller\AdminController;
 
 class {{module_name}}Controller extends AdminController

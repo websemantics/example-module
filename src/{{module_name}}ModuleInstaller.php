@@ -6,8 +6,8 @@ class {{module_name}}ModuleInstaller extends ModuleInstaller
 {
 
     protected $installers = [
-        'Anomaly\{{{module_name}}}Module\Installer\{{{module_name}}}FieldInstaller',
-        'Anomaly\{{{module_name}}}Module\Installer\{{{module_name}}}StreamInstaller'
+        'Anomaly\\{{module_name}}Module\Installer\\{{module_name}}FieldInstaller',
+        'Anomaly\\{{module_name}}Module\Installer\\{{module_name}}StreamInstaller'
     ];
 
 }

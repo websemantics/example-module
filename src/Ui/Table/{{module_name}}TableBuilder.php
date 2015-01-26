@@ -7,7 +7,7 @@ use Anomaly\Streams\Platform\Ui\Table\TableBuilder;
 class {{module_name}}TableBuilder extends TableBuilder
 {
 
-    protected $model = 'Anomaly\{{module_name}}Module\{{module_name}}\{{module_name}}Model';
+    protected $model = 'Anomaly\\{{module_name}}Module\\{{module_name}}\\{{module_name}}Model';
 
     protected $buttons = [
         'edit',
