@@ -2,7 +2,7 @@
 
 use {{vendor_name}}\\{{module_name}}Module\Ui\Form\\{{module_name}}FormBuilder;
 use {{vendor_name}}\\{{module_name}}Module\Ui\Table\\{{module_name}}TableBuilder;
-use {{vendor_name}}\\{{module_name}}Module\Platform\Http\Controller\AdminController;
+use Anomaly\Streams\Platform\Http\Controller\AdminController;
 
 class {{module_name}}Controller extends AdminController
 {
