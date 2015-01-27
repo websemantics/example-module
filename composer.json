@@ -1,5 +1,5 @@
 {
-    "name": "{{vendor_name}}/{{toLowerCase module_name}}-module",
+    "name": "{{toLowerCase vendor_name}}/{{toLowerCase module_name}}-module",
     "type": "streams-addon",
     "description": "{{description}}",
     "keywords": [
