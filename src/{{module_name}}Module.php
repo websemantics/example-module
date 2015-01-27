@@ -1,4 +1,4 @@
-<?php namespace {{namespace}};
+<?php namespace {{vendor_name}}\\{{module_name}}Module;
 
 use Anomaly\Streams\Platform\Addon\Module\Module;
 

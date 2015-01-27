@@ -1,6 +1,6 @@
-<?php namespace {{namespace}}Ui\Table;
+<?php namespace {{vendor_name}}\\{{module_name}}Module\Ui\Table;
 
-use Anomaly\{{namespace}}Module\{{namespace}}\{{namespace}}Model;
+use {{vendor_name}}\\{{module_name}}Module\\{{module_name}}\\{{module_name}}Model;
 use Anomaly\Streams\Platform\Ui\Table\Table;
 use Anomaly\Streams\Platform\Ui\Table\TableBuilder;
 

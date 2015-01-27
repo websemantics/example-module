@@ -1,5 +1,5 @@
 {
-    "name": "{{package_name}}",
+    "name": "{{vendor_name}}/{{toLowerCase module_name}}-module",
     "type": "streams-addon",
     "description": "{{description}}",
     "keywords": [
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "{{namespace}}": "src/"
+            "{{vendor_name}}\\{{module_name}}Module\\": "src/"
         }
     },
     "extra": {

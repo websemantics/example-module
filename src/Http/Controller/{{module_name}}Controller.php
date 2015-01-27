@@ -1,8 +1,8 @@
-<?php namespace {{namespace}}Http\Controller;
+<?php namespace {{vendor_name}}\\{{module_name}}Module\Http\Controller;
 
-use {{namespace}}Ui\Form\\{{module_name}}FormBuilder;
-use {{namespace}}Ui\Table\\{{module_name}}TableBuilder;
-use {{namespace}}Platform\Http\Controller\AdminController;
+use {{vendor_name}}\\{{module_name}}Module\Ui\Form\\{{module_name}}FormBuilder;
+use {{vendor_name}}\\{{module_name}}Module\Ui\Table\\{{module_name}}TableBuilder;
+use {{vendor_name}}\\{{module_name}}Module\Platform\Http\Controller\AdminController;
 
 class {{module_name}}Controller extends AdminController
 {

@@ -1,4 +1,4 @@
-<?php namespace {{namespace}}Installer;
+<?php namespace {{vendor_name}}\\{{module_name}}Module\Installer;
 
 use Anomaly\Streams\Platform\Field\FieldInstaller;
 

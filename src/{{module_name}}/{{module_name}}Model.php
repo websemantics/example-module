@@ -1,4 +1,4 @@
-<?php namespace {{namespace}}{{module_name}};
+<?php namespace {{vendor_name}}\\{{module_name}}Module\\{{module_name}};
 
 use Anomaly\Streams\Platform\Model\\{{module_name}}\\{{module_name}}EntryModel;
 
