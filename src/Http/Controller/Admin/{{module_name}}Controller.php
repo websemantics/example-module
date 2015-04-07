@@ -1,4 +1,4 @@
-<?php namespace {{vendor_name}}\\{{module_name}}Module\Http\Controller;
+<?php namespace {{vendor_name}}\\{{module_name}}Module\Http\Controller\Admin;
 
 use Anomaly\Streams\Platform\Http\Controller\AdminController;
 
