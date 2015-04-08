@@ -6,6 +6,13 @@ class {{module_name}}Module extends Module
 {
 
     /**
+     * The module's icon.
+     *
+     * @var string
+     */
+    protected $icon = 'fa fa-puzzle-piece';
+    
+    /**
      * The module navigation group.
      *
      * @var string
