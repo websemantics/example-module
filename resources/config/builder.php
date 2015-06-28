@@ -48,7 +48,8 @@ return [
 	'avoid_overwrite' => [
 		'Model.php',
 		'Repository.php',
-		/* 'TableColumns.php' */
+		/* 'TableColumns.php', */
+		/* 'FormBuilder.php', */
 	],
 
 	/*
